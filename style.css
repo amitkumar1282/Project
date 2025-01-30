@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* .logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+} */
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 0 20px;
+}
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header h1 {
+    font-size: 2rem;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+nav ul li {
+    font-size: 1rem;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.content {
+    background-color: #eaeaf7;
+    text-align: center;
+    padding: 50px 20px;
+}
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.content button {
+    background-color: #6c63ff;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.content button:hover {
+    background-color: #4e49cc;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.features {
+    display: flex;
+    gap: 20px;
+    padding: 40px 0;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.feature {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 4px 5px rgb(0, 0, 0,0.1);
+    transition: transform 0.3s;
+}
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 12px rgb(0, 0, 0,0.3);
+}
+.feature button {
+    background-color: #6c63ff;
+    color: white;
+    padding:5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.feature button:hover {
+    background-color: #4e49cc;
+}
+.feature h3 {
+    margin-bottom: 10px;
+}
+.feature p {
+    margin: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
